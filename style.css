@@ -1,0 +1,60 @@
+/*Font import*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --main-bg-color: #ee6767;
+    --main-text-color: #333;
+    --main-hover-color: #f4f4f4;
+     font-family: inter, monospace;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    background-color: rgb(rgb(241, 29, 29), green, blue) ;
+}
+/*Page css*/
+.Header{
+    color: rgb(114, 114, 114);
+    font-size: 50px;
+    font-family:"inter", monospace;
+    text-align: center;
+}
+.Headerdown{
+    color: rgb(114, 114, 114);
+    font-family:"inter", monospace;
+    text-align: center;
+    margin-top: -25px
+}
+
+.videoContainerContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    padding: 30px;
+    border: 1px solid black
+}
+
+.videoContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    padding: 30px;
+    border: 1px solid black
+}
+
+.videoContainerBox{
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 1px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+    box-shadow:  4px 3px rgba(0, 0, 0, 0.5);
+}
